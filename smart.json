@@ -3,6 +3,6 @@
     "description": "Calculate sun positions without a webservice using only latitude and longitude",
     "homepage": "https://github.com/alisalaah/meteor-suncalc",
     "author": "Ali Camarata  (http://alicamarata.com)",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "git": "https://github.com/alisalaah/meteor-suncalc.git"
 }
