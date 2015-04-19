@@ -1,8 +1,13 @@
 Package.describe({
-    summary: "Calculate sun positions without a webservice using only latitude and longitude"
+	name: 'alisalaah:suncalc',
+	summary: 'Calculate sun positions without a webservice using only latitude and longitude',
+	version: '2.0.1',
+	git: 'https://github.com/alisalaah/meteor-suncalc.git'
 });
 
-Package.on_use(function (api) {
-    api.use();
-    api.add_files("suncalc.js");
+Package.onUse(function(api) {
+	api.versionsFrom('METEOR@0.9.2');
+	//api.use(['ui'], 'client');
+	
+	api.add_files("suncalc.js", "client");
 });
